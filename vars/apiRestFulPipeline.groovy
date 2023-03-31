@@ -1,6 +1,6 @@
 def call (Map pipelineParams) {
     
-    def dockerLib = new com.erik.DockerLib()
+    def dockerLib = new com.example.DockerLib()
 
     pipeline {
         agent any
